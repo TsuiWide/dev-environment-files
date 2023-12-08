@@ -40,3 +40,17 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+
+vim.opt.list = true
+vim.opt.listchars = "tab:--,space:."
+
+vim.api.nvim_create_autocmd('TextYankPost', {
+    callback = function()
+        vim.highlight.on_yank({
+            higroup = 'IncSearch',
+           timeout = 300,
+        })
+    end,
+})
+
