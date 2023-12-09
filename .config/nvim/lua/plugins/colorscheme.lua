@@ -11,7 +11,7 @@ return {
   {
     "bluz71/vim-nightfly-guicolors",
     priority = 1000, -- make sure to load this before all the other start plugins
-    --enabled = false,
+    enabled = false,
     --cmd = "colorscheme nightfly",
     config = function()
       -- load the colorscheme here
@@ -20,6 +20,7 @@ return {
   },
   {
     "folke/tokyonight.nvim",
+    enabled = false,
     priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       local bg = "#011628"
