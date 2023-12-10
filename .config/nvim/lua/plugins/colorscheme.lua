@@ -2,7 +2,7 @@ return {
   {
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
-    config = true,
+    enabled = true,
     config = function()
       vim.o.background = "dark" -- "dark" or "light" for light mode
       vim.cmd([[colorscheme gruvbox]])
@@ -11,7 +11,7 @@ return {
   {
     "bluz71/vim-nightfly-guicolors",
     priority = 1000, -- make sure to load this before all the other start plugins
-    --enabled = false,
+    enabled = false,
     --cmd = "colorscheme nightfly",
     config = function()
       -- load the colorscheme here
@@ -21,6 +21,7 @@ return {
   {
     "folke/tokyonight.nvim",
     priority = 1000, -- make sure to load this before all the other start plugins
+    enabled = false,
     config = function()
       local bg = "#011628"
       local bg_dark = "#011423"
