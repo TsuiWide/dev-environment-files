@@ -1,0 +1,61 @@
+{
+    "highlightwords.colors": [
+        // https://www.chinavid.com/webcolor.html#hue_0
+        // https://www.chinavid.com/chinese-color.html
+
+        // 一、网页设计柔和明亮基础配色（webcolor提取）
+        {"light":"#FFFFCC","dark":"#FFFFCC"}, //浅米黄
+        {"light":"#CCFFFF","dark":"#CCFFFF"}, //浅天蓝
+        {"light":"#FFCCCC","dark":"#FFCCCC"}, //浅肉红
+        {"light":"#FFFF99","dark":"#FFFF99"}, //浅嫩黄
+        {"light":"#CCCCFF","dark":"#CCCCFF"}, //浅淡紫
+        {"light":"#FF9966","dark":"#FF9966"}, //暖橘色
+        {"light":"#FF6666","dark":"#FF6666"}, //浅大红
+        {"light":"#FFCC99","dark":"#FFCC99"}, //暖杏色
+        {"light":"#CCFF99","dark":"#CCFF99"}, //嫩草绿
+        {"light":"#CCCCCC","dark":"#CCCCCC"}, //中灰色
+        {"light":"#CCFFCC","dark":"#CCFFCC"}, //浅薄荷绿
+        {"light":"#FFFFFF","dark":"#FFFFFF"}, //纯白色
+        {"light":"#99CC99","dark":"#99CC99"}, //灰豆绿
+        {"light":"#99CCCC","dark":"#99CCCC"}, //青灰蓝
+        {"light":"#CCCC33","dark":"#CCCC33"}, //橄榄黄
+        {"light":"#CC9999","dark":"#CC9999"}, //豆沙灰粉
+
+        // 二、自定义精选热门配色（Best Favorite Colors）
+        {"light":"#fef65b","dark":"#fef65b"}, //亮柠檬黄
+        {"light":"#a3ffb4","dark":"#a3ffb4"}, //嫩青柠绿
+        {"light":"#e1c0b6","dark":"#e1c0b6"}, //裸肤色
+        {"light":"#00ffff","dark":"#00ffff"}, //青色（天蓝）
+        {"light":"#ffa500","dark":"#ffa500"}, //橙黄色
+        {"light":"#03989e","dark":"#03989e"}, //深海青蓝
+        {"light":"#ff0000","dark":"#ff0000"}, //纯红色
+        {"light":"#d59890","dark":"#d59890"}, //砖粉色
+        {"light":"#a0978d","dark":"#a0978d"}, //灰褐色
+        {"light":"#5d782e","dark":"#5d782e"}, //深橄榄绿
+        {"light":"#588163","dark":"#588163"}, //墨绿灰
+        {"light":"#d3d3d3","dark":"#d3d3d3"}, //浅银灰
+        {"light":"#6fa287","dark":"#6fa287"}, //灰湖绿
+        {"light":"#66cdaa","dark":"#66cdaa"}, //海蓝绿
+        {"light":"#a3b8c8","dark":"#a3b8c8"}, //灰蓝色
+        {"light":"#00ff00","dark":"#00ff00"}, //纯绿色
+        {"light":"#d7b4ae","dark":"#d7b4ae"}, //浅陶土色
+        {"light":"#ffff00","dark":"#ffff00"}, //纯黄色
+        {"light":"#cbb9aa","dark":"#cbb9aa"}, //浅咖裸色
+
+        // 三、可选追加：中国传统经典色（节选高频常用，完整可按需扩充）
+        {"light":"#ff461f","dark":"#ff461f"}, //朱砂
+        {"light":"#44cef6","dark":"#44cef6"}, //蓝
+        {"light":"#00e500","dark":"#00e500"}, //绿色
+        {"light":"#fff143","dark":"#fff143"}, //鹅黄
+        {"light":"#8d4bbb","dark":"#8d4bbb"}, //紫色
+        {"light":"#ffffff","dark":"#ffffff"}, //精白
+        {"light":"#000000","dark":"#000000"}  //黑色
+    ],
+    "highlightwords.box": {
+
+        // "light": false, "dark": true
+        "light": true, "dark": false
+    },
+    "highlightwords.defaultMode": 3,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+}
